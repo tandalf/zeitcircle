@@ -1,0 +1,10 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:10.5
+    steps:
+      - checkout
+      - run: echo "Stated steps"
+      - run: echo "yarn install"
+      - run: echo "yarn dev"
