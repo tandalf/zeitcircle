@@ -21,4 +21,4 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
-      - run: node_modules/.bin/now -p
+      - run: node_modules/.bin/now -p --token $NOW_TOKEN
