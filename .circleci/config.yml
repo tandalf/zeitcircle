@@ -22,3 +22,4 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       - run: node_modules/.bin/now -p --token $NOW_TOKEN
+      - run: echo $CIRCLE_PULL_REQUEST
