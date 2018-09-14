@@ -10,6 +10,7 @@
     "now": "^11.4.2"
   },
   "scripts": {
+    "build": "node .now/github.js",
     "dev": "node server.js"
   }
 }
