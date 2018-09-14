@@ -7,10 +7,9 @@
     "clipboard": "^2.0.1",
     "clipboardy": "^1.2.3",
     "express": "^4.16.3",
-    "now-cli": "0.0.0"
+    "now": "^11.4.2"
   },
   "scripts": {
-    "build": "node .now/github.js",
     "dev": "node server.js"
   }
 }
