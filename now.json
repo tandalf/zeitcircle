@@ -1,6 +1,6 @@
 {
   "name": "zeitnowcircle",
   "scripts": {
-    "start": "node .now/github.js",
+    "start": "node .now/github.js"
   }
 }
